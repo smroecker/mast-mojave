@@ -73,14 +73,14 @@ List current data and literature that inform the current soil temperature and mo
 -	Ecological site data
 
 # Literature
--	Bai, Y., T.A. Scott, W. Chen, R.C. Graham, L. Wu, A.C. Chang, and L.J. Lund, 2010. Soil Temperature Regimes in the Mojave Desert. Soil Science, 175(8):398-404. 
--	Howell, D., 2009. What does it take to create a digital soil mapping model, and what are all those cryptically named raster on the computer? pp.7.
--	Laity, J., 2008. Deserts and Desert Environments. Wiley-Blackwell, West Sussex, UK. 
--	Merkler, D.J., B.H. Gore, and K. Holcomb, 2013. A geospatial model of soil temperature for the Basin and Range. Poster presentation at the 2013 Soil Science Society of America Annual Meetings.
--	Mount, H.R., and R.F. Paetzold, 2002. The temperature regime for selected soils in the United States. United States Department of Agriculture, Natural Resources Con-servation Service, National Soil Survey Center, Lincoln, Nebraska, Soil Survey Investi-gation Report No. 48.
--	Peterson, F.F., 1992. Status of Soil Climate Studies in Nevada. pp1-11.  
--       [Roecker, S.M. and C.A. Haydu-Houdeshell, 2012. Modeling and Application of Soil Temperature in the Mojave and Lower Colorado Deserts of California. 2012 Western Regional Cooperative Soil Survey Conference.](https://www.researchgate.net/publication/331977150_Modeling_and_Application_of_Soil_Temperature_in_the_Mojave_and_Lower_Colorado_Deserts_of_California/citations)
--	Schmidlin, T.W., F.F. Peterson, and R.O. Gifford, 1983. Soil Temperature Regimes of Nevada. Soil So. Sci. Am. J., 47:977-982.  
+- Bai, Y., T.A. Scott, W. Chen, R.C. Graham, L. Wu, A.C. Chang, and L.J. Lund, 2010. Soil Temperature Regimes in the Mojave Desert. Soil Science, 175(8):398-404. 
+- Howell, D., 2009. What does it take to create a digital soil mapping model, and what are all those cryptically named raster on the computer? pp.7.
+- Laity, J., 2008. Deserts and Desert Environments. Wiley-Blackwell, West Sussex, UK. 
+- Merkler, D.J., B.H. Gore, and K. Holcomb, 2013. A geospatial model of soil temperature for the Basin and Range. Poster presentation at the 2013 Soil Science Society of America Annual Meetings.
+- Mount, H.R., and R.F. Paetzold, 2002. The temperature regime for selected soils in the United States. United States Department of Agriculture, Natural Resources Con-servation Service, National Soil Survey Center, Lincoln, Nebraska, Soil Survey Investi-gation Report No. 48.
+- Peterson, F.F., 1992. Status of Soil Climate Studies in Nevada. pp1-11.  
+- [Roecker, S.M. and C.A. Haydu-Houdeshell, 2012. Modeling and Application of Soil Temperature in the Mojave and Lower Colorado Deserts of California. 2012 Western Regional Cooperative Soil Survey Conference.](https://www.researchgate.net/publication/331977150_Modeling_and_Application_of_Soil_Temperature_in_the_Mojave_and_Lower_Colorado_Deserts_of_California/citations)
+- Schmidlin, T.W., F.F. Peterson, and R.O. Gifford, 1983. Soil Temperature Regimes of Nevada. Soil So. Sci. Am. J., 47:977-982.  
 
 # Duration of study
 See start and end dates in Site and Sensor Table, attached.  
