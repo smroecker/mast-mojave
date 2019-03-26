@@ -1,4 +1,11 @@
-# Code from the MLRA 30 and 31 - Soil Climate Study
+---
+title: "Code from the MLRA 30 and 31 - Soil Climate Study"
+output: 
+  html_document: 
+    keep_md: yes
+editor_options: 
+  chunk_output_type: console
+---
 
 - [Project Description](https://github.com/smroecker/mast-mojave/blob/master/projectdescription.md)
 - [Analysis](https://smroecker.github.io/mast-mojave/analysis_stephen.html)

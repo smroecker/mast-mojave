@@ -37,7 +37,7 @@ gmap <- get_map(bb)
 
 ggmap(gmap) +
   coord_sf(crs = st_crs(4326)) +
-  geom_sf(data = mojave, alpha = 0.5, inherit.aes = FALSE) +
+  geom_sf(data = mojave, fill = NA, inherit.aes = FALSE) +
   geom_point(data = xy, aes(x = lon, y = lat)) +
   ggtitle("Location of MAST sites")
 
