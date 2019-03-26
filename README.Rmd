@@ -1,0 +1,45 @@
+---
+title: "Code from the MLRA 30 and 31 - Soil Climate Study"
+output: 
+  html_document: 
+    keep_md: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+- [Project Description](https://github.com/smroecker/mast-mojave/blob/master/projectdescription.md)
+- [Analysis](https://smroecker.github.io/mast-mojave/analysis_stephen.html)
+- [Poster](https://www.researchgate.net/publication/331977150_Modeling_and_Application_of_Soil_Temperature_in_the_Mojave_and_Lower_Colorado_Deserts_of_California/citations)
+
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+library(ggplot2)
+library(ggmap)
+library(sf)
+
+# mast sites
+sites  <- read.csv("D:/projects/soilTemperatureMonitoring/data/R/HOBO_List_2013_0923_master.csv") %>%
+  st_as_sf(coords = c("utmeasting", "utmnorthing"), dim = "XY")
+st_crs(sites) <- "+init=epsg:26911"
+sites <- st_transform(sites, "+init=epsg:4326")
+
+xy <- as.data.frame(st_coordinates(sites))
+names(xy) <- c("lon", "lat")
+
+# mlra
+mlra <- read_sf(dsn = "D:/geodata/soils/mlra_a_mbr.shp", layer = "mlra_a_mbr")
+st_crs(mlra) <- "+init=epsg:4326"
+mojave <- subset(mlra, MLRARSYM %in% c("30", 31))
+
+bb <- make_bbox(lat = xy$lat, lon = xy$lon)
+gmap <- get_map(bb)
+
+ggmap(gmap) +
+  coord_sf(crs = st_crs(4326)) +
+  geom_sf(data = mojave, alpha = 0.5, inherit.aes = FALSE) +
+  geom_point(data = xy, aes(x = lon, y = lat)) +
+  ggtitle("Location of MAST sites")
+
+
+```
