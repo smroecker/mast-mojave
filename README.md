@@ -1,9 +1,3 @@
----
-output: 
-  html_document: 
-    keep_md: yes
----
-
 # Code from the MLRA 30 and 31 - Soil Climate Study
 
 - [Project Description](https://github.com/smroecker/mast-mojave/blob/master/projectdescription.md)
